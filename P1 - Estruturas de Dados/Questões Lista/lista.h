@@ -1,0 +1,24 @@
+typedef struct reg_no tipo_no;
+typedef struct reg_lista tipo_lista;
+
+tipo_lista* criar_lista();
+int lista_vazia(tipo_lista *);
+void incluir_no_inicio(tipo_lista *, int );
+void incluir_no_fim(tipo_lista *, int );
+void listar(tipo_lista *);
+void excluir_do_inicio(tipo_lista *);
+tipo_lista* excluir_lista(tipo_lista *);
+int excluir_do_fim(tipo_lista *);
+int incluir_ordenado(tipo_lista *, int );
+int excluir_especifico(tipo_lista *, int );
+int tamanho_lista(tipo_lista *);
+float media_aritmetica(tipo_lista *);
+int desalocar_nos(tipo_lista *);
+int profundidade_lista(tipo_lista *, int );
+int verificar_crescente(tipo_lista *);
+int* cria_vetor(tipo_lista *, int );
+tipo_no* busca_endereco(tipo_lista *, int );
+int busca_minimo(tipo_lista *);
+void excluir_especifico_todos(tipo_lista *, int );
+int exclui_posicao(tipo_lista *lista, int );
+void inverte_lista(tipo_lista *);
